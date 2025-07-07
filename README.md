@@ -1,18 +1,18 @@
 # PC1-python
 Desarrollo PC1 PYTHON
 
-#PROBLEMA 1:
+# PROBLEMA 1
 nombre = input("Por favor, escriba su nombre: ")
 
 print(f"¡Hola {nombre}!")
 
-#PROBLEMA 2: 
+# PROBLEMA 2
 consumo = float(input("¿Cuál fue su consumo en el restaurante? $"))
 porcentaje = float(input("¿Qué porcentaje de propina desea dejar? (15% o más) "))
 propina = consumo * (porcentaje / 100)
 print(f"La propina es: ${propina}")
 
-#PROBLEMA 3: 
+# PROBLEMA 3
 venta_payaso = int(input("Cantidad de payasos vendidos: "))
 venta_muñeca = int(input("Cantidad de muñecas vendidas: "))
 
@@ -22,21 +22,21 @@ pesototal = pesototal_payaso + pesototal_muñeca
 
 print(f"El peso total del paquete es: {pesototal} gramos")
 
-#PROBLEMA 4: 
+# PROBLEMA 4
 N = int(input("Introduce un entero positivo N: "))
 
 suma = (N * (N + 1)) // 2
 
 print("La suma de los enteros desde 1 hasta", N, "es:", suma)
 
-#PROBLEMA 5: 
+# PROBLEMA 5
 shows_vistos = int(input("¿Cuántos shows musicales has visto en el último año? "))
 
 True_False = shows_vistos > 3
 
 print(True_False)
 
-#PROBLEMA 6:
+# PROBLEMA 6
 edad = int(input("Ingrese la edad del cliente: "))
 
 if edad < 4:
@@ -52,7 +52,7 @@ if precio == 0:
 else:
     print(f"El precio de la entrada es ${precio}.")
 
-#PROBLEMA 7:
+# PROBLEMA 7
 n1 = float(input("Ingresa el primer número: "))
 n2 = float(input("Ingresa el segundo número: "))
 
@@ -75,7 +75,7 @@ elif opcion == '3':
 else:
     print("Opción incorrecta.")
 
-#PROBLEMA 8: 
+# PROBLEMA 8
 hora_str = input("Ingrese la hora en formato HH:MM (24 horas): ")
 
 try:
@@ -106,12 +106,12 @@ elif almuerzo_inicio <= total_minutos <= almuerzo_final:
 elif cena_inicio <= total_minutos <= cena_final:
     print("Es hora de la cena.")
 
-#PROBLEMA 9: 
+# PROBLEMA 9 
 lista_original = ['Di', 'buen', 'día', 'a', 'papa']
 lista_invertida = lista_original[::-1]
 print(lista_invertida)
 
-#PROBLEMA 10: 
+# PROBLEMA 10
 colores = ['Rojo', 'Verde', 'Blanco', 'Negro', 'Rosa', 'Amarillo']
 eliminar = [5, 4, 0]
 for indice in eliminar:
@@ -119,7 +119,7 @@ for indice in eliminar:
         del colores[indice]
 print(colores)
 
-#PROBLEMA 11:
+# PROBLEMA 11
 lista_original = [1, 1, 2, 3, 4, 4, 5, 1]
 
 def duplicados(lista):
